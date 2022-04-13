@@ -1,1 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  /* padding-top: 20px; */
+}
+
+.card {
+  margin-top: 20px;
+  width: 340px;
+  height: 450px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.centro {
+  margin-top: 130px;
+  font-size: 150px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.arriba {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  font-size: 100px;
+}
+
+.abajo {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+  font-size: 100px;
+  transform: scaleY(-1);
+}
